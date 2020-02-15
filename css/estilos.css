@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f3f3f3;
+}
+
+#nav{
+    background-color: white;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;  
+}
+
+#area-principal{
+    width: 720px;
+    margin: 55px auto 10px auto;
+}
+
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    padding: 10px;
+}
+
+#post{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color:#b9c941;
+}
+
+/*Formatacao do menu  - Links*/
+
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+/*Nao Visitados*/
+a:link{
+    color: #838383;
+}
+
+/* Visitados*/
+a:visited{
+    color: #838383;
+}
+/*Hover*/
+a:hover{
+    color: white;
+    background-color:#b9c941;
+}
+/*Active*/
+a:active{
+    color: #553333;
+}
+
+/*Classes*/
+.verde{
+    color: #b9c941;
+}
+
+.data-postagem{
+    font-size: 14px;
+    border-bottom: 1px solid #f4f4f4;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-post{
+    float: left;
+    margin: 0 10px 5px 0;
+}
+
+.postadopor{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
